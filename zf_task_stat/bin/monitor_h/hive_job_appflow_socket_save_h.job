@@ -1,0 +1,9 @@
+type=command
+command=sh ../../script/monitor_h/hive_job_appflow_socket_save_h.sh ${DATE} ${HOURS}
+command.1=sh ../../param/transfer_param_h.sh ${DATE} ${HOURS}
+dependencies=monitor_start_h
+
+#重试次数
+retries=3
+#每次重试间隔时间，单位毫秒
+retry.backoff=60000

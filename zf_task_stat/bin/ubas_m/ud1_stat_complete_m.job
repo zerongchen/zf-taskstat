@@ -1,0 +1,3 @@
+type=command
+command=echo "ud1 stat end!"
+dependencies=mysql_job_ubas_appflow_m,mysql_job_ubas_traffic_m,ud1_job_ubas_illegalroutes_m,ud1_job_ubas_userapp_m,ud1_job_ubas_webflow_m,ud1_job_ubas_wlan_m,ud1_hive_job_ubas_share_kw_m,mysql_job_ubas_illegalroutes_m

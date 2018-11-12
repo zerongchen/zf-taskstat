@@ -1,0 +1,2 @@
+type=command
+command=sh ../../script/auto_add_partition/hive_auto_add_partitions.sh ${DATE}

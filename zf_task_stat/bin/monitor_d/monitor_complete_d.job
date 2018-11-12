@@ -1,0 +1,3 @@
+type=command
+command=echo "monitor stat date complete!"
+dependencies=mysql_job_radius_d,mysql_job_radius_relay_d,mysql_job_radius_policy_d,mysql_job_createfile_d,mysql_job_receivedfile_d,mysql_job_uploaddfile_d,mysql_job_socket_received_d,mysql_job_socket_save_d

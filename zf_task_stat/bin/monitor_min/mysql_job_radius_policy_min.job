@@ -1,0 +1,4 @@
+type=command
+command=sh ../../script/monitor_min/mysql_job_radius_policy_min.sh ${DATE} ${HOURS} ${MIN}
+command.1=sh ../../param/transfer_param_min.sh ${DATE} ${HOURS} ${MIN}
+dependencies=monitor_start_min

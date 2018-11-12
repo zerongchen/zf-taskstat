@@ -1,0 +1,8 @@
+type=command
+command=sh ../../script/ubas_h/hive_job_ubas_userapp_h.sh ${DATE} ${HOURS}
+command.1=sh ../../param/transfer_param_h.sh ${DATE} ${HOURS}
+dependencies=ud1_stat_start_h
+#重试次数
+retries=3
+#每次重试间隔时间，单位毫秒
+retry.backoff=60000

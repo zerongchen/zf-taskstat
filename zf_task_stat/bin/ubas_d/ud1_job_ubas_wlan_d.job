@@ -1,0 +1,8 @@
+type=command
+command=sh ../../script/ubas_d/hive_job_ubas_wlan_d.sh ${DATE}
+command.1=sh ../../param/transfer_param_d.sh ${DATE}
+dependencies=ud1_stat_start_d
+#重试次数
+retries=3
+#每次重试间隔时间，单位毫秒
+retry.backoff=60000

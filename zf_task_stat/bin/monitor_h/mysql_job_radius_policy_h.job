@@ -1,0 +1,4 @@
+type=command
+command=sh ../../script/monitor_h/mysql_job_radius_policy_h.sh ${DATE} ${HOURS}
+command.1=sh ../../param/transfer_param_h.sh ${DATE} ${HOURS}
+dependencies=monitor_start_h
